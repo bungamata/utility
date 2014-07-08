@@ -1,0 +1,25 @@
+{
+	"name": "bungamata/utility",
+	"type": "library",
+	"description": "PHP Utility",
+	"keywords": ["utility", "math"],
+	"homepage": "http://www.bungamata.com",
+	"license": "MIT",
+	"authors": [
+		{"name": "GusDeCooL", "email": "gusdecool@gmail.com"}
+	],
+	"require": {
+		"php": ">=5.3.2"
+	},
+	"require-dev": {
+
+	},
+	"autoload": {
+		"psr-0": { "BungaMata\\Utility\\": "lib/" }
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	}
+}
